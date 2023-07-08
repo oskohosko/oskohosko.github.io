@@ -2,7 +2,7 @@
 body {
     font-family: 'Bitter', serif;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-weight: bolder;
 }
 
@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
     padding-top: 1em;
     .nav-link {
         padding-bottom: 0;
-        border-bottom-width: 3px;
+        border-bottom-width: 2.8px;
         &.active {
             border-color: #1565C0;
         }
