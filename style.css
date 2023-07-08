@@ -14,9 +14,9 @@ h1, h2, h3, h4 {
         border-bottom-width: 3px;
         &.active {
             border-color: #1565C0;
-
         }
     }
+
 }
 
 
@@ -24,6 +24,7 @@ h1, h2, h3, h4 {
     margin-bottom: 5em;
     --bs-nav-link-color: var(--bs-body-color);
     --bs-nav-link-disabled-color: var(--bs-body-color);
+    --bs-nav-link-hover-color: var(--bs-body-color);
 }
 
 .nav-item h4 {
