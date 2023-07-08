@@ -2,3 +2,12 @@
 body {
     font-family: 'Bitter', serif;
 }
+h1, h2, h3, h4 {
+    font-weight: bolder;
+}
+
+.nav-item {padding-left: 3em; padding-right: 3em;}
+
+.nav {margin-bottom: 5em;}
+
+/* .nav-underline {} */
