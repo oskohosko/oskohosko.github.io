@@ -3,13 +3,12 @@ body {
     font-family: 'Bitter', serif;
 }
 h1, h2, h3, h4, h5 {
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .nav-item {
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
+    padding-right: 2.5em;
+    padding-top: 2em;
     .nav-link {
         padding-bottom: 0;
         border-bottom-width: 2.8px;
