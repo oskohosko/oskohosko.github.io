@@ -2,9 +2,6 @@
 body {
     font-family: 'Bitter', serif;
 }
-h1, h2, h3, h4, h5 {
-    font-weight: 400;
-}
 
 .nav-item {
     padding-right: 2.5em;
@@ -12,13 +9,8 @@ h1, h2, h3, h4, h5 {
     .nav-link {
         padding-bottom: 0;
         border-bottom-width: 2.8px;
-        &.active {
-            border-color: #1565C0;
-        }
     }
-
 }
-
 
 .nav {
     margin-bottom: 5em;
@@ -31,4 +23,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 0;
 }
 
-/* .nav-underline {} */
+#homepage {
+    font-weight: bolder;
+}
