@@ -1,5 +1,14 @@
 body {
     font-family: 'Bitter', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
 }
 
 .container {
