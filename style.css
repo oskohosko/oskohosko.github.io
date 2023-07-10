@@ -11,6 +11,10 @@ footer {
     margin-top: auto;
 }
 
+a {
+    color: pink;
+}
+
 .container {
     max-width: 1140px;
 }
