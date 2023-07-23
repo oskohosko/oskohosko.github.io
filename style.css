@@ -5,6 +5,19 @@ body {
     flex-direction: column;
 }
 
+a.project {
+    color: var(--bs-body-color);
+    text-decoration: none;
+}
+a.project:link {
+    text-decoration: none;
+}
+a.project:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 4px;
+}
+
 footer {
     text-align: center;
     padding: 5px;
