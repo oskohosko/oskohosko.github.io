@@ -5,6 +5,15 @@ body {
     flex-direction: column;
 }
 
+body.dark-mode {
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
+a.dark-mode {
+    color: white !important;
+}
+
 a.project {
     color: var(--bs-body-color);
     text-decoration: none;
@@ -57,6 +66,9 @@ footer a:active {
     --bs-nav-link-color: var(--bs-body-color);
     --bs-nav-link-disabled-color: var(--bs-body-color);
     --bs-nav-link-hover-color: var(--bs-body-color);
+    .dark-mode {
+        color: white;
+    }
 }
 
 .nav-item h4 {
@@ -67,3 +79,12 @@ footer a:active {
     display: flex;
     gap: 10px;
 }
+
+#theme-image {
+    cursor: pointer;
+    margin-top: -100px;
+    float: right;
+    width: 10%;
+    height: 10%;
+}
+
