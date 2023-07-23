@@ -10,8 +10,8 @@ body.dark-mode {
     color: white;
 }
 
-a.dark-mode {
-    color: white !important;
+body.dark-mode a {
+    color: white;
 }
 
 a.project {
